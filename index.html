@@ -6,8 +6,13 @@
   <title>Arthur Rodrigues</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="shortcut icon" href="icone_portifolio2.png" type="image/x-icon">
 </head>
 <body>
+  <button id="theme-switch">
+    <span>🌙</span>
+    <span>☀️</span>
+  </button>
   <header class="site-header">
     <div class="container header-inner">
       <a href="#home" class="logo">Portfólio</a>
@@ -29,6 +34,9 @@
           <h1>Arthur Rodrigues Coelho</h1>
           <a href="https://github.com/arodrigues23" target="_blank" class="github-link" aria-label="GitHub">
             <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/arthur-rodrigues-2309a3402/" target="_blank" class="linkedin-link" aria-label="Linkedin">
+            <i class="fab fa-linkedin"></i>
           </a>
           <p>Desenvolvedor Front-end | Criador de experiências digitais bonitas e funcionais.</p>
           <div class="hero-actions">
@@ -67,6 +75,7 @@
           <p>Desenvolvimento WEB (Monitoria CEUB)</p>
           <p>Java (Monitoria CEUB)</p>
           <p>Básicos de Linux (Monitoria CEUB)</p>
+          <p>Introdução a Javascript - IBM (Coursera)</p>
         </div>
         <div class="section-cards">
           <div class="info-card">
@@ -94,11 +103,11 @@
         <div class="projects-grid">
           <article class="project-card">
             <h3>Projeto 1</h3>
-            <p>Site de login com autenticação e segurança.</p>
+            <p>Gerador de senhas(C).</p>
           </article>
           <article class="project-card">
             <h3>Projeto 2</h3>
-            <p>Programação orientada a objeto,baseado em um sistema de futebol em java.</p>
+            <p>Programação orientada a objeto,baseado em um sistema de futebol(Java).</p>
           </article>
           <article class="project-card">
             <h3>Projeto 3</h3>
@@ -118,13 +127,13 @@
           <p>Telefone: +55 61 99246-1625</p>
         </div>
         <form class="contact-form" id="contactForm">
-          <label for="name">Nome</label>
+          <label class="name" for="name">Nome</label>
           <input type="text" id="name" name="name" placeholder="Seu nome" required />
 
-          <label for="email">E-mail</label>
+          <label class="email" for="email">E-mail</label>
           <input type="email" id="email" name="email" placeholder="seu@email.com" required />
 
-          <label for="message">Mensagem</label>
+          <label class="message" for="message">Mensagem</label>
           <textarea id="message" name="message" rows="5" placeholder="Escreva sua mensagem" required></textarea>
 
           <button type="submit" class="btn btn-primary">Enviar mensagem</button>
