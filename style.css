@@ -249,6 +249,9 @@ img{
 .skill-item .fas.fa-c{
   color:#a8b9cc;
 }
+.skill-item .fas.fa-golang{
+  color:#00ADD8;
+}
 .projects-grid{
   display:grid;
   grid-template-columns:repeat(3,minmax(0,1fr));
@@ -424,6 +427,9 @@ header.site-header{
 }
 
 .site-footer{
+  background-color: var(--base-color);
+}
+ul{
   background-color: var(--base-color);
 }
 
